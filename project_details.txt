@@ -1,0 +1,133 @@
+################################
+        I N T R O 
+################################
+In today’s competitive financial landscape, understanding customer behavior is more important than ever. Banks and financial institutions gather massive amounts of data from customer transactions, spending patterns, and credit usage. But raw data alone doesn’t provide insights — this is where Artificial Intelligence (AI) steps in.
+
+
+
+
+################################
+        P R O B L E M  
+################################
+
+having massive amounts from transactions data by banking customers and the mass campaigns to all customers is very costly and inefficient when talking about targeting campaigns or making deals and offers with specific merchants
+
+
+
+
+################################
+        O B J E C T I V E  
+################################
+
+The goal of this use case is to identify distinct segments of credit card users based on their transaction behavior and other key attributes which enables the bank for enhanced targetting campaigns and better deals and offers with merchants based on the bank customer needs which increases customers satisfaction and loyality
+
+The goal of this use case is to identify distinct segments of credit card users based on their transaction behavior and other key attributes. By understanding these segments, banks can tailor marketing strategies, improve customer experience, and optimize credit offerings.
+
+
+
+
+################################
+        D A T A S E T
+################################
+
+in this project you are required to study the shared data carefully as it's raw data on a transaction level with some details about the customers 
+
+* you are required to generate and build your dataset from your prespective and your understand of the problem 
+* generate and add as many features as possible 
+* Make sure to validate the values of each column to be logical values of this column
+* make the data to be on a customer level which means to make the suitable aggregates to make the customers unique 
+
+
+
+---------------------
+data set description:
+---------------------
+
+ 1   TransactionID ---------------------------- Uniqe Transaction ID
+ 2   CustomerID ------------------------------- Unique Customer ID
+ 3   CustomerDOB ------------------------------ Date of Birth
+ 4   CustGender ------------------------------- Gender 
+ 5   CustLocation ----------------------------- Location 
+ 6   CustAccountBalance ----------------------- Account Balance
+ 7   TransactionDate -------------------------- Transaction date
+ 8   TransactionTime -------------------------- Transaction Time (unix timestamp)  
+ 9   TransactionAmount (INR) -----------------  Amount in INR                  
+ 10  OwnedProducts     
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+
+
+
+
+################################
+        D E L I V E R A B L E S 
+################################
+
+
+* Perform exploratory data analysis (EDA) to understand key variables.
+
+* preprocess the data 
+
+* Apply the suitable unsupervised learning techniques to group customers based on the customers features 
+
+* Interpret the resulting segments and suggest possible actions a bank could take for each group.
+
+Skills You'll Practice:
+
+    * data set creation and data wrangling techniques
+
+    * Data cleaning and preprocessing
+
+    * Feature selection and scaling
+
+    * Clustering algorithms 
+
+    * Visualization and interpretation of resulted clusters
+
+
+
+**********************
+  Notes : 
+**********************
+
+*the final delivery will be in a :
+
+* jupyter notebook contains all project steps 
+
+* well organized code and documentation (short description for the purpose of each step)
+
+* trials log contains all your modelling trials until you reach to a satisfying results (contains details about the model used and the hyper parpameter values and the evaluation of each trial)
+
+-------------------------------
+ B O N U S --- S E C T I O N
+------------------------------
+
+Try to build a recommendation system that recommends bank products or investment plans based on the customer segmentation features and clustering results (You can use clustering for product recommendations by identifying products owned by some customers within a cluster and suggesting those products to other customers in the same cluster who don’t have them yet )
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+													THANK YOU AND GOOD LUCK
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
