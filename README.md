@@ -18,7 +18,7 @@ The primary goal of this project is to:
 
 ---
 
-## Dataset
+## [Dataset](https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation/data)
 This project involves working with raw transactional data. The dataset contains the following attributes:
 - **TransactionID**: Unique Transaction ID
 - **CustomerID**: Unique Customer ID
